@@ -18,7 +18,7 @@ RevisionNamingSchemeGUID=
 Name=Stabiliser.OutJob
 Description=
 TargetOutputMedium=Folder Structure
-VariantName=[No Variations]
+VariantName=Standard_DCjack
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Bullzip PDF Printer
@@ -240,20 +240,6 @@ OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=Record=LayerStackReportView|Units=Imperial
-OutputType11=Board Stack Report
-OutputName11=Copy of Report Board Stack
-OutputCategory11=Fabrication
-OutputDocumentPath11=
-OutputVariantName11=
-OutputEnabled11=1
-OutputEnabled11_OutputMedium1=0
-OutputEnabled11_OutputMedium2=6
-OutputEnabled11_OutputMedium3=6
-OutputEnabled11_OutputMedium4=0
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration11_Name1=OutputConfigurationParameter1
-Configuration11_Item1=Record=LayerStackReportView|Units=Imperial
 
 [PublishSettings]
 OutputFilePath2=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Stabiliser\Project Outputs for Stabilizer\Thermostat.PDF

@@ -242,40 +242,6 @@ GenerateClassCluster=0
 DocumentUniqueId=UNCGMTMK
 
 [Document13]
-DocumentPath=..\Fastino\PCB\ADC_1CH.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=15
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VTGJNGLD
-
-[Document14]
-DocumentPath=Panel\Panel_Stabilizer.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document15]
 DocumentPath=Panel\Panel_Stabilizer.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,12 +258,46 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NUTPSQEY
 
+[Document14]
+DocumentPath=..\Fastino\PCB\ADC_1CH.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=15
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VTGJNGLD
+
+[Document15]
+DocumentPath=Panel\Panel_Stabilizer.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=6292F020-0F04-4226-9ABB-0B7DE09A91F3
 Description=Standard_DCjack
 AllowFabrication=0
 ParameterCount=0
-VariationCount=13
+VariationCount=16
 Variation1=Designator=CON1|UniqueId=\LEYRJAAW\FAHBSEOH|Kind=1|AlternatePart= 
 Variation2=Designator=R172_1|UniqueId=\UBOVSTHQ\HTAYVDBK|Kind=1|AlternatePart= 
 Variation3=Designator=R172_2|UniqueId=\EFYSBIPV\HTAYVDBK|Kind=1|AlternatePart= 
@@ -311,6 +311,9 @@ Variation10=Designator=R79_1|UniqueId=\KRMAOACH\DMEIORED|Kind=1|AlternatePart=
 Variation11=Designator=R86_1|UniqueId=\KRMAOACH\NIBMWILP|Kind=1|AlternatePart= 
 Variation12=Designator=C102|UniqueId=\TOOHTCQP\EJNOGWTE|Kind=1|AlternatePart= 
 Variation13=Designator=C103|UniqueId=\TOOHTCQP\TYALINVA|Kind=1|AlternatePart= 
+Variation14=Designator=L8A|UniqueId=\UBOVSTHQ\UJSSGNNR|Kind=1|AlternatePart= 
+Variation15=Designator=L8B|UniqueId=\EFYSBIPV\UJSSGNNR|Kind=1|AlternatePart= 
+Variation16=Designator=R179|UniqueId=\KCABABQX\MFQSAQDL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -933,6 +936,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
