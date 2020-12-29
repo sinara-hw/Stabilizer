@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=Standard_DCjack
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother MFC-L2710DW series Printer
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -59,7 +59,7 @@ OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=1
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=ExportDXFView|ACadVersion=61|UseRoundedTracks=True|Components=0|HoleMode=0|Units=1|OutputFormat=1|OnlyVisibleLayers=True|ZeroWidthLines=0
+Configuration2_Item1=Record=ExportDXFView|ACadVersion=61|UseRoundedTracks=True|Components=0|HoleMode=0|Units=1|OutputFormat=1|ZeroWidthLines=1|LayersHash=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973830~1,16973831~1,16908289~1,16908301~1,16973839~1|OnlyVisibleLayers=False
 OutputType3=Assembly
 OutputName3=ADC
 OutputCategory3=Assembly
