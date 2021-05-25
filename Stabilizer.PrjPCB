@@ -24,6 +24,7 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=1
 AutoSheetNumbering=0
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -333,10 +334,10 @@ Variation30=Designator=C116|UniqueId=\CSBAQELK|Kind=1|AlternatePart=
 Variation31=Designator=C5|UniqueId=\IUVPRHJQ|Kind=1|AlternatePart= 
 Variation32=Designator=C10|UniqueId=\OKXWDTMK|Kind=1|AlternatePart= 
 Variation33=Designator=C11|UniqueId=\YBYQGEKR|Kind=1|AlternatePart= 
-Variation34=Designator=FTG1|UniqueId=\UIFBWSES|Kind=1|AlternatePart= 
-Variation35=Designator=FTG2|UniqueId=\YNLGJIVP|Kind=1|AlternatePart= 
-Variation36=Designator=FTG3|UniqueId=\XOEJVVQK|Kind=1|AlternatePart= 
-Variation37=Designator=FTG4|UniqueId=\BMUPFRWO|Kind=1|AlternatePart= 
+Variation34=Designator=FTG1|UniqueId=\UIFBWSES|Kind=0|AlternatePart= 
+Variation35=Designator=FTG2|UniqueId=\YNLGJIVP|Kind=0|AlternatePart= 
+Variation36=Designator=FTG3|UniqueId=\XOEJVVQK|Kind=0|AlternatePart= 
+Variation37=Designator=FTG4|UniqueId=\BMUPFRWO|Kind=0|AlternatePart= 
 Variation38=Designator=TP1A|UniqueId=\HVGUNAJH\GWXAUYLK|Kind=1|AlternatePart= 
 Variation39=Designator=TP21|UniqueId=\LEYRJAAW\JQGGQHHQ|Kind=1|AlternatePart= 
 Variation40=Designator=TP20B|UniqueId=\EFYSBIPV\BRAOAKNA|Kind=1|AlternatePart= 
@@ -930,6 +931,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=AnsysEDB
+OutputName12=Ansys EDB
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
