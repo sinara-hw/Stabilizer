@@ -306,7 +306,7 @@ UniqueID=6292F020-0F04-4226-9ABB-0B7DE09A91F3
 Description=Standard_DCjack
 AllowFabrication=0
 ParameterCount=0
-VariationCount=66
+VariationCount=69
 Variation1=Designator=CON1|UniqueId=\LEYRJAAW\FAHBSEOH|Kind=1|AlternatePart= 
 Variation2=Designator=R172A|UniqueId=\UBOVSTHQ\HTAYVDBK|Kind=1|AlternatePart= 
 Variation3=Designator=R172B|UniqueId=\EFYSBIPV\HTAYVDBK|Kind=1|AlternatePart= 
@@ -340,43 +340,58 @@ Variation30=Designator=C116|UniqueId=\CSBAQELK|Kind=1|AlternatePart=
 Variation31=Designator=C5|UniqueId=\IUVPRHJQ|Kind=1|AlternatePart= 
 Variation32=Designator=C10|UniqueId=\OKXWDTMK|Kind=1|AlternatePart= 
 Variation33=Designator=C11|UniqueId=\YBYQGEKR|Kind=1|AlternatePart= 
-Variation34=Designator=FTG1|UniqueId=\UIFBWSES|Kind=0|AlternatePart= 
-Variation35=Designator=FTG2|UniqueId=\YNLGJIVP|Kind=0|AlternatePart= 
-Variation36=Designator=FTG3|UniqueId=\XOEJVVQK|Kind=0|AlternatePart= 
-Variation37=Designator=FTG4|UniqueId=\BMUPFRWO|Kind=0|AlternatePart= 
-Variation38=Designator=TP1A|UniqueId=\HVGUNAJH\GWXAUYLK|Kind=1|AlternatePart= 
-Variation39=Designator=TP21|UniqueId=\LEYRJAAW\JQGGQHHQ|Kind=1|AlternatePart= 
-Variation40=Designator=TP20B|UniqueId=\EFYSBIPV\BRAOAKNA|Kind=1|AlternatePart= 
-Variation41=Designator=TP20A|UniqueId=\UBOVSTHQ\BRAOAKNA|Kind=1|AlternatePart= 
-Variation42=Designator=TP19B|UniqueId=\EFYSBIPV\BORXLWDD|Kind=1|AlternatePart= 
-Variation43=Designator=TP19A|UniqueId=\UBOVSTHQ\BORXLWDD|Kind=1|AlternatePart= 
-Variation44=Designator=TP18B|UniqueId=\EFYSBIPV\WYIFIROB|Kind=1|AlternatePart= 
-Variation45=Designator=TP18A|UniqueId=\UBOVSTHQ\WYIFIROB|Kind=1|AlternatePart= 
-Variation46=Designator=TP17|UniqueId=\LEYRJAAW\VKBBMMAX|Kind=1|AlternatePart= 
-Variation47=Designator=TP16|UniqueId=\LEYRJAAW\KODGLHTS|Kind=1|AlternatePart= 
-Variation48=Designator=TP15|UniqueId=\UCTQVKSV|Kind=1|AlternatePart= 
-Variation49=Designator=TP14|UniqueId=\PBQEIFLY|Kind=1|AlternatePart= 
-Variation50=Designator=TP13|UniqueId=\LEYRJAAW\BIULQXVW|Kind=1|AlternatePart= 
-Variation51=Designator=TP12|UniqueId=\LEYRJAAW\TVISMBTA|Kind=1|AlternatePart= 
-Variation52=Designator=TP11|UniqueId=\LEYRJAAW\KSMVSCXE|Kind=1|AlternatePart= 
-Variation53=Designator=TP10|UniqueId=\LEYRJAAW\OFPGNNVN|Kind=1|AlternatePart= 
-Variation54=Designator=TP9|UniqueId=\LEYRJAAW\GTEQGFMI|Kind=1|AlternatePart= 
-Variation55=Designator=TP8|UniqueId=\LEYRJAAW\MFYWLDXD|Kind=1|AlternatePart= 
-Variation56=Designator=TP7|UniqueId=\LEYRJAAW\RDHIYMPL|Kind=1|AlternatePart= 
-Variation57=Designator=TP6|UniqueId=\NXUXMYJW|Kind=1|AlternatePart= 
-Variation58=Designator=TP5B|UniqueId=\EFYSBIPV\ITPWDHVQ|Kind=1|AlternatePart= 
-Variation59=Designator=TP5A|UniqueId=\UBOVSTHQ\ITPWDHVQ|Kind=1|AlternatePart= 
-Variation60=Designator=TP4B|UniqueId=\EFYSBIPV\DLGKXLOH|Kind=1|AlternatePart= 
-Variation61=Designator=TP4A|UniqueId=\UBOVSTHQ\DLGKXLOH|Kind=1|AlternatePart= 
-Variation62=Designator=TP3B|UniqueId=\WJSGHBQT\YJFJSRUQ|Kind=1|AlternatePart= 
-Variation63=Designator=TP3A|UniqueId=\HVGUNAJH\YJFJSRUQ|Kind=1|AlternatePart= 
-Variation64=Designator=TP2B|UniqueId=\WJSGHBQT\CBSCLFMA|Kind=1|AlternatePart= 
-Variation65=Designator=TP2A|UniqueId=\HVGUNAJH\CBSCLFMA|Kind=1|AlternatePart= 
-Variation66=Designator=TP1B|UniqueId=\WJSGHBQT\GWXAUYLK|Kind=1|AlternatePart= 
+Variation34=Designator=TP1A|UniqueId=\HVGUNAJH\GWXAUYLK|Kind=1|AlternatePart= 
+Variation35=Designator=TP21|UniqueId=\LEYRJAAW\JQGGQHHQ|Kind=1|AlternatePart= 
+Variation36=Designator=TP19B|UniqueId=\EFYSBIPV\BORXLWDD|Kind=1|AlternatePart= 
+Variation37=Designator=TP19A|UniqueId=\UBOVSTHQ\BORXLWDD|Kind=1|AlternatePart= 
+Variation38=Designator=TP18B|UniqueId=\EFYSBIPV\WYIFIROB|Kind=1|AlternatePart= 
+Variation39=Designator=TP18A|UniqueId=\UBOVSTHQ\WYIFIROB|Kind=1|AlternatePart= 
+Variation40=Designator=TP17|UniqueId=\LEYRJAAW\VKBBMMAX|Kind=1|AlternatePart= 
+Variation41=Designator=TP16|UniqueId=\LEYRJAAW\KODGLHTS|Kind=1|AlternatePart= 
+Variation42=Designator=TP15|UniqueId=\UCTQVKSV|Kind=1|AlternatePart= 
+Variation43=Designator=TP14|UniqueId=\PBQEIFLY|Kind=1|AlternatePart= 
+Variation44=Designator=TP13|UniqueId=\LEYRJAAW\BIULQXVW|Kind=1|AlternatePart= 
+Variation45=Designator=TP12|UniqueId=\LEYRJAAW\TVISMBTA|Kind=1|AlternatePart= 
+Variation46=Designator=TP11|UniqueId=\LEYRJAAW\KSMVSCXE|Kind=1|AlternatePart= 
+Variation47=Designator=TP10|UniqueId=\LEYRJAAW\OFPGNNVN|Kind=1|AlternatePart= 
+Variation48=Designator=TP9|UniqueId=\LEYRJAAW\GTEQGFMI|Kind=1|AlternatePart= 
+Variation49=Designator=TP8|UniqueId=\LEYRJAAW\MFYWLDXD|Kind=1|AlternatePart= 
+Variation50=Designator=TP7|UniqueId=\LEYRJAAW\RDHIYMPL|Kind=1|AlternatePart= 
+Variation51=Designator=TP6|UniqueId=\NXUXMYJW|Kind=1|AlternatePart= 
+Variation52=Designator=TP5B|UniqueId=\EFYSBIPV\ITPWDHVQ|Kind=1|AlternatePart= 
+Variation53=Designator=TP5A|UniqueId=\UBOVSTHQ\ITPWDHVQ|Kind=1|AlternatePart= 
+Variation54=Designator=TP4B|UniqueId=\EFYSBIPV\DLGKXLOH|Kind=1|AlternatePart= 
+Variation55=Designator=TP4A|UniqueId=\UBOVSTHQ\DLGKXLOH|Kind=1|AlternatePart= 
+Variation56=Designator=TP3B|UniqueId=\WJSGHBQT\YJFJSRUQ|Kind=1|AlternatePart= 
+Variation57=Designator=TP3A|UniqueId=\HVGUNAJH\YJFJSRUQ|Kind=1|AlternatePart= 
+Variation58=Designator=TP2B|UniqueId=\WJSGHBQT\CBSCLFMA|Kind=1|AlternatePart= 
+Variation59=Designator=TP2A|UniqueId=\HVGUNAJH\CBSCLFMA|Kind=1|AlternatePart= 
+Variation60=Designator=TP1B|UniqueId=\WJSGHBQT\GWXAUYLK|Kind=1|AlternatePart= 
+Variation61=Designator=C168|UniqueId=\SBLNPBVO\XHVUONCW|Kind=1|AlternatePart= 
+Variation62=Designator=IC33|UniqueId=\SBLNPBVO\BOSXOOID|Kind=1|AlternatePart= 
+Variation63=Designator=IC44|UniqueId=\LEYRJAAW\VZFHFOKE|Kind=1|AlternatePart= 
+Variation64=Designator=C170|UniqueId=\LEYRJAAW\IFIYFNGY|Kind=1|AlternatePart= 
+Variation65=Designator=IC4|UniqueId=\LEYRJAAW\GMSNBNPR|Kind=1|AlternatePart= 
+Variation66=Designator=IC7|UniqueId=\LEYRJAAW\PFFWHOTQ|Kind=1|AlternatePart= 
+Variation67=Designator=IC37A|UniqueId=\UBOVSTHQ\KOBGHVYF|Kind=1|AlternatePart= 
+Variation68=Designator=IC37B|UniqueId=\EFYSBIPV\KOBGHVYF|Kind=1|AlternatePart= 
+Variation69=Designator=R225|UniqueId=\LEYRJAAW\VXDPENQU|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
+<<<<<<< HEAD
+DocumentPath=Project Outputs for Stabilizer\Panel\Panel_Stabilizer(Standard_DCjack).step
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Stabilizer\Panel\Panel_Stabilizer.brd
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Stabilizer\Panel\Panel_Stabilizer.DXF
+=======
 DocumentPath=Project Outputs for Zotino\Design Rule Check - Stabiliser.html
+>>>>>>> ca3e12129c6975c4df1d01124e5002bcf0eb80d8
 DItemRevisionGUID=
 
 [Configuration1]
@@ -683,7 +698,11 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
+<<<<<<< HEAD
+TargetPrinter=Brother DCP-L2540DN series Printer
+=======
 TargetPrinter=Brother DCP-7055W Printer
+>>>>>>> ca3e12129c6975c4df1d01124e5002bcf0eb80d8
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=SimpleBOM
 OutputName1=Simple BOM
