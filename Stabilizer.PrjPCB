@@ -25,12 +25,14 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=1
 AutoSheetNumbering=0
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+IsVirtualBomDocumentRemoved=0
 OutputPath=Project Outputs for Zotino
 LogFolderPath=
 ManagedProjectGUID=
@@ -41,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Standard_DCjack
 
 [Preferences]
 PrefsVaultGUID=
@@ -306,7 +309,7 @@ UniqueID=6292F020-0F04-4226-9ABB-0B7DE09A91F3
 Description=Standard_DCjack
 AllowFabrication=0
 ParameterCount=0
-VariationCount=69
+VariationCount=73
 Variation1=Designator=CON1|UniqueId=\LEYRJAAW\FAHBSEOH|Kind=1|AlternatePart= 
 Variation2=Designator=R172A|UniqueId=\UBOVSTHQ\HTAYVDBK|Kind=1|AlternatePart= 
 Variation3=Designator=R172B|UniqueId=\EFYSBIPV\HTAYVDBK|Kind=1|AlternatePart= 
@@ -376,23 +379,11 @@ Variation66=Designator=IC7|UniqueId=\LEYRJAAW\PFFWHOTQ|Kind=1|AlternatePart=
 Variation67=Designator=IC37A|UniqueId=\UBOVSTHQ\KOBGHVYF|Kind=1|AlternatePart= 
 Variation68=Designator=IC37B|UniqueId=\EFYSBIPV\KOBGHVYF|Kind=1|AlternatePart= 
 Variation69=Designator=R225|UniqueId=\LEYRJAAW\VXDPENQU|Kind=1|AlternatePart= 
+Variation70=Designator=IC47|UniqueId=\LEYRJAAW\JTIZOZMX|Kind=1|AlternatePart= 
+Variation71=Designator=R226|UniqueId=\LEYRJAAW\GBTHKAEY|Kind=1|AlternatePart= 
+Variation72=Designator=R227|UniqueId=\LEYRJAAW\GPENAWZV|Kind=1|AlternatePart= 
+Variation73=Designator=IC6|UniqueId=\SGUFBBVP|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-<<<<<<< HEAD
-DocumentPath=Project Outputs for Stabilizer\Panel\Panel_Stabilizer(Standard_DCjack).step
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Stabilizer\Panel\Panel_Stabilizer.brd
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Stabilizer\Panel\Panel_Stabilizer.DXF
-=======
-DocumentPath=Project Outputs for Zotino\Design Rule Check - Stabiliser.html
->>>>>>> ca3e12129c6975c4df1d01124e5002bcf0eb80d8
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -526,7 +517,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-7055W Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -698,11 +689,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-<<<<<<< HEAD
-TargetPrinter=Brother DCP-L2540DN series Printer
-=======
-TargetPrinter=Brother DCP-7055W Printer
->>>>>>> ca3e12129c6975c4df1d01124e5002bcf0eb80d8
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=SimpleBOM
 OutputName1=Simple BOM
@@ -972,6 +959,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1301,6 +1318,7 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
